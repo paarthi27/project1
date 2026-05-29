@@ -1,0 +1,17 @@
+[
+  {
+    "recordId": 1,
+    "recordName": "Attendance",
+    "access": "Read"
+  },
+  {
+    "recordId": 2,
+    "recordName": "Profile",
+    "access": "Read"
+  },
+  {
+    "recordId": 3,
+    "recordName": "Salary",
+    "access": "Restricted"
+  }
+]

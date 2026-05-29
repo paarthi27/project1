@@ -1,0 +1,51 @@
+<div class="container d-flex justify-content-center pt-3">
+<div class="card mt-5 w-50">
+
+
+    <div class="">
+
+        <div class="card-header bg-dark text-white d-flex justify-content-center">
+      <h4>Login</h4>
+    </div>
+    <div class="card-body px-5">
+<form [formGroup]="loginform" (ngSubmit)="login()">
+<div class="form-group">
+
+<label for="username">Username</label>
+<input type="text" class="form-control " id="username" formControlName="username">
+
+<div class="mt-2">
+<label for="password">Password</label>
+<input type="password" class="form-control " id="password" formControlName="password">
+</div>
+
+
+
+<div class="pt-3 pb-3">
+<label for="role">role</label>
+    <select class="form-control" id="role" formControlName="role">
+        
+      <option>Admin</option>
+      <option>User</option>
+      
+    </select>
+</div>
+
+<button type="submit" class="btn btn-success">login</button>
+
+
+</div>
+
+</form>
+
+
+
+    </div>
+
+
+
+</div>
+
+</div>
+
+</div>
